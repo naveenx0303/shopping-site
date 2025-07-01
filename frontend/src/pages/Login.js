@@ -21,9 +21,9 @@ function Login() {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5" style={{marginLeft:'35%',boxShadow:'0 10px 10px 10px rgba(0, 0, 0, 0.1)', width:'35%',borderRadius:'10px',height:'270px'}}>
       <h2>Login</h2>
-      <form onSubmit={handleSubmit} style={{ maxWidth: 400 }}>
+      <form onSubmit={handleSubmit} style={{marginTop:'25px', maxWidth: 500 ,marginBottom:'10px'}}>
         <div className="mb-3">
           <label>Email</label>
           <input type="email" className="form-control" value={email} onChange={e => setEmail(e.target.value)} required />

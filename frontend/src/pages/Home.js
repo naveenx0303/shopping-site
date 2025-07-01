@@ -36,6 +36,7 @@ function Home() {
                 <h5 className="card-title">{product.name}</h5>
                 <p className="card-text">{product.description}</p>
                 <p className="card-text"><strong>${product.price}</strong></p>
+                <button className="btn btn-primary">Buy Now</button>
               </div>
             </div>
           </div>
